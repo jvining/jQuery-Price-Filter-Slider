@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<!-- Meta -->
+	<title>jQuery Price Filter </title>
+	<meta charset="utf-8">
+	<meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
+	<meta name="author" content="https://github.com/jvining">
+	<meta name="description" content="A Project Template built with Bootstrap 4, Jquery, & Google WebFonts. All assets locally hosted ready for immediate use (http://bit.ly/1SnymWq)">
+ 
+	<!-- Open Graph -->
+ 	<meta property="og:url" content="https://jvining.github.io/Starter-bootstrap-v4" />
+	<meta property="og:type" content="Product" />
+	<meta property="og:title" content="jQuery Price Filter " />
+	<meta property="og:description" content="A Project Template built with Bootstrap 4, Jquery, & Google WebFonts. All assets locally hosted ready for immediate use (http://bit.ly/1SnymWq)" />
+	<meta property="og:image" content="https://place-hold.it/600x315/563d7c/fff/000&text=Starter-Bootstrap-V4" />
+
+	<!-- CSS -->
+	<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+	<link href="css/font-awesome.min.css" rel="stylesheet" type="text/css">
+ 	<link href="css/open-sans.css" rel="stylesheet" type="text/css">
+ 	<link href="style.css" rel="stylesheet" type="text/css">
+
+</head>
+<body>
+
+	<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+		<div class="container">
+			<a class="navbar-brand" href="#">jQuery Price Filter </a> 
+			<button aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#navbarCollapse" data-toggle="collapse" type="button">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarCollapse">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item mr-2"><a class="nav-link" href="#">Agenda</a></li>
+					<li class="nav-item mr-2"><a class="nav-link" href="#">Speaker</a></li>
+					<li class="nav-item mr-2"><a class="nav-link" href="#">Sponsors</a></li>
+					<li class="nav-item mr-2"><a class="nav-link" href="#">Content</a></li>
+					<li class="nav-item mr-2"><a class="nav-link" href="#">About</a></li>
+					<li class="nav-item mr-2"><a class="nav-link btn btn-sm btn-danger text-white" href="#">Register Now</a></li>
+				</ul>
+			</div>
+		</div>
+  	</nav>
+
+	<div class="container" id="content">
+		<div class="row">
+			<div class="col-md-12">
+				<h1>jQuery Price Filter </h1>
+				<label for="amount">Price range:</label>
+				<input type="text" id="amount" style="border:0; color:#f6931f; font-weight:bold;" />
+				<div id="slider-range"></div>
+			</div>
+		</div>
+ 		<div class="row mt-5" id="products">
+ 			<div class="col-md-3">
+				<div class="card" data-price="10">
+					<div class="bg-image">
+						<img class="img-fluid" src="https://picsum.photos/250/170/?random"> 
+					</div>
+					<div class="card-body">
+						<h5 class="card-title">Card title <span class="float-right text-bold">$10</span></h5>
+						<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+						<a class="btn btn-primary btn-block" href="#!">Button</a>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-3">
+				<div class="card" data-price="50">
+					<div class="bg-image">
+						<img class="img-fluid" src="https://picsum.photos/251/170/?random"> 
+					</div>
+					<div class="card-body">
+						<h5 class="card-title">Card title <span class="float-right text-bold">$50</span></h5>
+						<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+						<a class="btn btn-primary btn-block" href="#!">Button</a>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-3">
+				<div class="card" data-price="100">
+					<div class="bg-image">
+						<img class="img-fluid" src="https://picsum.photos/252/170/?random"> 
+					</div>
+					<div class="card-body">
+						<h5 class="card-title">Card title <span class="float-right text-bold">$100</span></h5>
+						<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+						<a class="btn btn-primary btn-block" href="#!">Button</a>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-3">
+				<div class="card" data-price="150">
+					<div class="bg-image">
+						<img class="img-fluid" src="https://picsum.photos/253/170/?random"> 
+					</div>
+					<div class="card-body">
+						<h5 class="card-title">Card title <span class="float-right text-bold">$150</span></h5>
+						<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+						<a class="btn btn-primary btn-block" href="#!">Button</a>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-3">
+				<div class="card" data-price="200">
+					<div class="bg-image">
+						<img class="img-fluid" src="https://picsum.photos/254/170/?random"> 
+					</div>
+					<div class="card-body">
+						<h5 class="card-title">Card title <span class="float-right text-bold">$200</span></h5>
+						<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+						<a class="btn btn-primary btn-block" href="#!">Button</a>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-3">
+				<div class="card" data-price="250">
+					<div class="bg-image">
+						<img class="img-fluid" src="https://picsum.photos/255/170/?random"> 
+					</div>
+					<div class="card-body">
+						<h5 class="card-title">Card title <span class="float-right text-bold">$250</span></h5>
+						<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+						<a class="btn btn-primary btn-block" href="#!">Button</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<footer class="bg-dark mt-5">
+		<div class="container">
+			<div class="row pt-4">
+				<div class="col-md-8">
+					<p>jQuery Price Filter  &copy; 2019</p>
+  				</div>
+				<div class="col">
+					<ul class="list-unstyled list-inline">
+						<li class="list-inline-item"><a class="text-secondary" target="_blank" href="https://getbootstrap.com" data-toggle="tooltip" data-placement="top" data-original-title="Version: 4.1.3">Bootstrap</a></li>
+						<li class="list-inline-item"><a class="text-secondary" target="_blank" href="https://fontawesome.com/" data-toggle="tooltip" data-placement="top" data-original-title="Version: 4.6.3">Font Awesome</a></li>
+						<li class="list-inline-item"><a class="text-secondary" target="_blank" href="https://jquery.com/" data-toggle="tooltip" data-placement="top" data-original-title="Version: 3.4.1">Jquery</a></li>
+ 					</ul>
+ 	 			</div>
+			</div>
+		</div>
+	</footer>
+
+	<!-- JS -->
+	<script src="js/jquery.min.js"></script>
+	<script src="js/popper.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/scripts.js"></script>
+
+
+	<!-- Project Specific -->
+	<link rel="stylesheet" type="text/css" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/redmond/jquery-ui.css">
+	<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.js"></script>
+	<script>
+ 	   $(document).ready(function() {
+		   function showProducts(minPrice, maxPrice) {
+		       $("#products .card").hide().filter(function() {
+		           var price = parseInt($(this).data("price"), 10);
+		           return price >= minPrice && price <= maxPrice;
+		       }).show();
+		   }
+
+		   $(function() {
+		       var options = {
+		           range: true,
+		           min: 0,
+		           max: 300,
+		           values: [50, 200],
+		           slide: function(event, ui) {
+		               var min = ui.values[0],
+		                   max = ui.values[1];
+
+		               $("#amount").val("$" + min + " - $" + max);
+		               showProducts(min, max);
+		           }
+		       }, min, max;
+
+		       $("#slider-range").slider(options);
+
+		       min = $("#slider-range").slider("values", 0);
+		       max = $("#slider-range").slider("values", 1);
+
+		       $("#amount").val("$" + min + " - $" + max);
+
+		       showProducts(min, max);
+		   });
+ 	   });
+	</script>
+	
+</body>
+</html>
